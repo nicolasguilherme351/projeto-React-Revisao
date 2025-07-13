@@ -1,7 +1,6 @@
 import { useState } from "react"
-import style from './Título2.module.css'
 
-function Titulo2() {
+function Título2() {
 
     const [texto, setTexto] = useState("Um título");
     const [inputText, setInputText] = useState("");
@@ -11,7 +10,7 @@ function Titulo2() {
     }
 
     return (
-        <div className={style.Título2}>
+        <div>
             ======================
             <h1>TÍTULO 2</h1>
             <h2>texto: {texto}</h2>
@@ -23,4 +22,4 @@ function Titulo2() {
     )
 }
 
-export { Titulo2 }
+export { Título2 }
