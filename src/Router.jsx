@@ -1,13 +1,14 @@
 import { Route, Routes } from "react-router-dom"
-import { Titulo, Titulo2 } from "./pages"
+import { Título } from "./pages/Título"
+
+
 
 
 function Router()  {
 
   return (
       <Routes>
-        <Route path="/" element={Titulo(1)} />
-        <Route path="/titulo2" element={Titulo2()} />
+        <Route path="/" element={Título(1)} />
       </Routes>
   
   )
